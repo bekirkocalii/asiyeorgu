@@ -1,0 +1,90 @@
+/* Genel Ayarlar */
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #fff8f0;
+    color: #5d4b3c;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: 'Caveat', cursive;
+}
+
+/* Üst Menü */
+header {
+    background-color: #fbe2d4;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #eac7b0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #5d4b3c;
+    font-weight: bold;
+}
+
+/* Ana Sayfa */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #fff2e6;
+}
+
+/* Galeri */
+.gallery {
+    padding: 40px 20px;
+    background-color: #fde9df;
+    text-align: center;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+    justify-items: center;
+}
+
+.gallery-grid img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #eac7b0;
+    transition: transform 0.3s ease;
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Hakkımda & İletişim */
+.about, .contact {
+    padding: 40px 20px;
+    background-color: #fff8f0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Footer */
+footer {
+    background-color: #fbe2d4;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #5d4b3c;
+}
